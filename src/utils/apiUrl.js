@@ -1,1 +1,1 @@
-export default () => 'http://192.168.1.102:3001';
+export default () => 'http://your_ip_address:3001';

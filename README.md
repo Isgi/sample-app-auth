@@ -1,1 +1,52 @@
 # sample-app-auth
+
+Sample App Auth is app auth with React Native and NodeJS API that support username and password authentication with JWTs.
+
+### Quick Start
+
+1.General Requirements Software (Backend & Frontend)
+
+- Install NodeJS
+- Install react-native-cli
+
+2.Backend - NodeJS, clone this repository https://github.com/auth0-blog/nodejs-jwt-authentication-sample
+
+2.1.install dependency
+```
+//make sure you have entered into the application repository
+# npm install
+```
+
+2.2.start server
+```
+# npm run start
+```
+
+3.Frontend - React Native, clone this repository https://github.com/Isgi/sample-app-auth.git
+
+3.1.install dependency
+```
+//make sure you have entered into the application repository
+# npm install
+```
+
+3.2.run app
+```
+//make sure the nodeJS server is already running
+# react-native run-android
+```
+
+`note: change apiUrl in /src/utils/apiUrl.js with your loacal ip address port server nodeJS`
+
+### Tech Stacks
+
+Backend:
+-NodeJS
+-[Json Web Tokens](https://docs.auth0.com/jwt)
+-sample API with nodejs-jwt-authentication-sample, more detail (https://github.com/auth0-blog/nodejs-jwt-authentication-sample)
+
+React Native:
+-[react-navigation](https://reactnavigation.org/) with redux, example app : https://github.com/react-community/react-navigation/tree/master/examples/ReduxExample
+-[redux](https://redux.js.org/)
+-[AsyncStorage](https://facebook.github.io/react-native/docs/asyncstorage.html)
+-[axios](https://github.com/axios/axios)
