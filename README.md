@@ -3,7 +3,7 @@
 Sample App Auth is app auth with React Native and NodeJS API that support username and password authentication with JWTs.
 
 <div align="center">
-  <img src="https://github.com/Isgi/sample-app-auth/blob/master/demo.mp4?raw=true" width="300">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/Isgi/sample-app-auth/blob/master/demo.gif?raw=true" width="300">&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 
 ### Quick Start
