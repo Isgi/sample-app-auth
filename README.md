@@ -8,33 +8,33 @@ Sample App Auth is app auth with React Native and NodeJS API that support userna
 
 ### Quick Start
 
-1. General Requirements Software (Backend & Frontend)
+1.General Requirements Software (Backend & Frontend)
 
 - Install NodeJS
 - Install react-native-cli
 
-2. Backend - NodeJS, clone this repository https://github.com/auth0-blog/nodejs-jwt-authentication-sample
+2.Backend - NodeJS, clone this repository https://github.com/auth0-blog/nodejs-jwt-authentication-sample
 
-a. install dependency
+2.1. install dependency
 ```
 //make sure you have entered into the application repository
 # npm install
 ```
 
-b. start server
+2.2. start server
 ```
 # npm run start
 ```
 
-3. Frontend - React Native, clone this repository https://github.com/Isgi/sample-app-auth.git
+3.Frontend - React Native, clone this repository https://github.com/Isgi/sample-app-auth.git
 
-a. install dependency
+3.1. install dependency
 ```
 //make sure you have entered into the application repository
 # npm install
 ```
 
-b. run app
+3.2. run app
 ```
 //make sure the nodeJS server is already running
 
